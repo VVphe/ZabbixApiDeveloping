@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="influxdb-java-2.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/influxdb-java-2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
