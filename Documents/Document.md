@@ -52,10 +52,11 @@
         docker run -d -p 9100:9100 prom/node-exporter
         ```
     6. prometheus端9090端口查看抓取到的数据
+    ![prometheus](https://raw.githubusercontent.com/VVphe/ZabbixApiDeveloping/master/Documents/pictures/prometheus.png)
         
 ## zabbix api二次开发
-    目前已实现如下接口:apiVersion()查看zabbix api版本、login()用户登录、getHostItems()获取指定名称host的监控项,并逐项进行了测试;通过getHostItems()获取的items信息保存在服务器influxdb中,存储情况如下：
-
+目前已实现如下接口:apiVersion()查看zabbix api版本、login()用户登录、getHostItems()获取指定名称host的监控项,并逐项进行了测试;通过getHostItems()获取的items信息保存在服务器influxdb中,存储情况如下：
+![influxdb](https://github.com/VVphe/ZabbixApiDeveloping/blob/master/Documents/pictures/influxdb.png)
 
 ## 项目链接
 [ZabbixApi Developing](https://github.com/VVphe/ZabbixApiDeveloping)
